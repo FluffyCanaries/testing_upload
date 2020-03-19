@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="303dp"
+        android:layout_height="454dp"
+        android:text="Located in the serene and scenic Kuala Lumpur Lake Gardens, it is only 10 minutes’ drive away from the city centre of Kuala Lumpur. It is home to more than 3,000 local and foreign birds of approximately 200 different species.  Sprawling approximately 20.9 acres of verdant valley terrain, the park is divided into 4 zones; Zone 1 and 2 make up the free-flight zone; Zone 3 is the Hornbill Park and Zone 4 is where the birds are placed in separate cages and mini aviaries.  One of KL Bird Park's most extraordinary feature is that in Zone 1, 2 and 3, birds are let free in the aviary which closely resembles their natural habitat. With this free-flight concept, birds are able to breed naturally in this unique environment.  Visitors will have an exciting experience of watching colourful and melodic birds perching and winging about freely while relaxing in a natural and beautifully landscaped surrounding. KL Bird Park is also wheelchair-friendly and is reputed to be the largest free-flight walk-in aviary in the world. "
+        android:textSize="18"
+        tools:layout_editor_absoluteX="54dp"
+        tools:layout_editor_absoluteY="420dp" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="408dp"
+        android:layout_height="230dp"
+        app:srcCompat="@drawable/kualalumpurLakeGardens"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="131dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
